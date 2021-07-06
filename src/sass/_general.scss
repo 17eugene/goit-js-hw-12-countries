@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  letter-spacing: normal;
+  color: rgb(15, 4, 4);
+  background-image: url(../images/flags.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  display: block;
+}
+
+.search-area {
+  width: 400px;
+  height: 40px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px rgb(163, 165, 199, 0.8);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.country-card {
+  margin-left: 30px;
+}
+
+.card-data {
+  line-height: 0.5;
+}
+
+.card-list-item {
+  font-size: 20px;
+  line-height: 1.15;
+  list-style: none;
+  font-style: italic;
+  color: rgba(54, 54, 45, 0.8);
+  text-shadow: 2px 2px 1px rgb(223, 216, 216);
+  margin-bottom: 5px;
+}
+
+.country-list {
+  list-style: none;
+  margin-left: 40px;
+
+  &-item {
+    text-shadow: 2px 2px 1px rgb(224, 216, 216);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
